@@ -1,0 +1,1 @@
+App demonstrating a transition from a simple CRUD app using Rails scaffold to a React Rails CRUD app
