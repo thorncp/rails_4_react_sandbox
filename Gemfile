@@ -9,12 +9,11 @@ gem 'rails', '4.2.7.1'
 gem 'ruby-prof'
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks'
-
+gem 'webpacker', '~> 3.0'
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'
 end
-
 
 group :development, :test do
   gem 'benchmark-ips'
@@ -28,8 +27,6 @@ group :development do
   #gem 'web-console', '~> 2.0'
   gem 'spring'
 end
-
-
 
 group :test do
   gem 'database_cleaner'
