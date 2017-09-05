@@ -14,6 +14,7 @@
     "eslint": "^4.6.0",
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-react": "^7.3.0",
+    "jest-cli": "^21.0.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.6.0",
@@ -32,6 +33,18 @@
     "webpack-hot-middleware": "^2.18.2"
   },
   "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "jest": "^20.0.4",
+    "react-test-renderer": "^15.6.1",
     "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
+    "test": "NODE_PATH='./app/javascript/node_modules:./app/javascript' jest"
+  },
+  "jest": {
+    "roots": [
+      "./app/javascript"
+    ]
   }
 }
