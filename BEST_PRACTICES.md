@@ -12,6 +12,7 @@
     - use prop types
     - presentational components
         - write functional stateless components unless there is a need to use local state or the lifecycle methods
+    - use snake_case for file names, with a .jsx extension. e.g. the file containing `MyComponent` would be my_component.jsx
 ## TODO Discuss the following
 - configuration
     - Use component specifc stylesheets only

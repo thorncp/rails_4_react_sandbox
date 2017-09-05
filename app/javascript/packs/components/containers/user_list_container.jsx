@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import UserList from '../UserList'
+import UserList from '../user_list'
 
 const getUsers = (users) => {
   return users;

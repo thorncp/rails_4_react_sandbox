@@ -1,4 +1,4 @@
-import * as actions from '../../actions/UserActions'
+import * as actions from '../../actions/user_actions'
 
 describe('actions', () => {
   it('should create an action to add a todo', () => {
