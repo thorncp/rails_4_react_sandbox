@@ -1,20 +1,23 @@
 - directory structure
-   - __test__ 
+   - `__test__`
    - actions
    - components
-       - containers
+   - containers
    - reducers
-   
+
 - components
     - separate presentational and container components
-        - [comparison] (http://redux.js.org/docs/basics/UsageWithReact.html#presentational-and-container-components)
-        - [explanation of container components] (https://medium.com/@learnreact/container-components-c0e67432e005)
+        - [comparison](http://redux.js.org/docs/basics/UsageWithReact.html#presentational-and-container-components)
+        - [explanation of container components](https://medium.com/@learnreact/container-components-c0e67432e005)
     - use prop types
     - presentational components
         - write functional stateless components unless there is a need to use local state or the lifecycle methods
+
 ## TODO Discuss the following
 - configuration
     - Use component specifc stylesheets only
     - Store package.json and yarn.lock in app/javascript
     - Create bin/yarn or bin/npm to run by looking in app/javascript
-    - Change bin/webpack and bin/webpack-dev-server to look for node_modules in app/javascript/ 
+    - Change bin/webpack and bin/webpack-dev-server to look for node_modules in app/javascript/
+    - Use https://github.com/tleunen/babel-plugin-module-resolver to avoid relative paths in imports and requires
+    - Include an index.js file in each directory that re-exports all the objects defined in that directory, allowing for e.g. `import { MyComponent } from "components"`
