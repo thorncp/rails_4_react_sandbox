@@ -9,6 +9,7 @@
     - separate presentational and container components
         - [comparison] (http://redux.js.org/docs/basics/UsageWithReact.html#presentational-and-container-components)
         - [explanation of container components] (https://medium.com/@learnreact/container-components-c0e67432e005)
+        - store each cotainer/component pair in a single file, in the components directory
     - use prop types
     - presentational components
         - write functional stateless components unless there is a need to use local state or the lifecycle methods
